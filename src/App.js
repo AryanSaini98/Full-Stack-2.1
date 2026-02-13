@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-
 export default function App() {
     const [books, setBooks] = useState([
         { id: 1, title: "Clean Code", author: "Robert C. Martin" },
